@@ -1,4 +1,7 @@
-import { registrarEstudiante, validarPositivo, simularOperaciones, calcularFactura, analizarNumero } from './modulos/index.js';
+import { registrarEstudiante, validarPositivo, simularOperaciones, calcularFactura, analizarNumero, ejecutarCalculadora } from './modulos/index.js';
+
+// Ejecutar la calculadora propia
+ejecutarCalculadora();
 
 // // Código existente para el registro de estudiante
 // let nota1 = 0;
@@ -14,12 +17,12 @@ import { registrarEstudiante, validarPositivo, simularOperaciones, calcularFactu
 //             contador++;
 //         }
 //     } else if (contador == 2){
-//         nota2 = parseFloat(prompt("Ingrese la segunda nota:"));
+//         nota2 = parseFloat(prompt("Ingrese la segunda nota:");
 //         if (validarPositivo(nota2)){
 //             contador++;
 //         }
 //     } else if (contador == 3){
-//         nota3 = parseFloat(prompt("Ingrese la tercera nota:"));
+//         nota3 = parseFloat(prompt("Ingrese la tercera nota:");
 //         if (validarPositivo(nota3)){
 //             contador++;
 //         }
@@ -48,3 +51,5 @@ import { registrarEstudiante, validarPositivo, simularOperaciones, calcularFactu
 // const numero = parseInt(prompt("Ingrese un número entero:"));
 // analizarNumero(numero);
 
+// Ejemplo uso calculadora propia
+ejecutarCalculadora();
